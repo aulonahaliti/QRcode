@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="divii"> 
+<input type="text" id="inputText">
+<button  class="button-55" role="button" onclick="generateQRCode()"> Generate QR Code </button>
+<br>
+<br>
+</div>
+<img id="fotoja" src="">
+
+
+<script>
+    function generateQRCode(){
+
+        var inputText = document.getElementById("inputText").value;
+        var linku = " https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inputText + "bgcolor=ffff00" ;
+
+        document.getElementById("fotoja").src = linku;
+
+    }
+
+</script>
+
+</body>
+</html>
