@@ -1,25 +1,31 @@
 #divii{
     margin-top: 15%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 #fotoja{
     margin-left: 45%;
+    margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* CSS */
+#inputText{
+ height: 28px;
+ width: 150px;
+ margin-right: 0.5%;
+ background-color: white;
+}
+
 .button-55 {
   align-self: center;
   background-color: powderblue;
   background-image: none;
   background-position: 0 90%;
   background-repeat: repeat no-repeat;
-  background-size: 4px 3px;
+  background-size: 2px 1px;
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
   border-style: solid;
   border-width: 2px;
@@ -30,7 +36,7 @@
   display: inline-block;
   font-family: Neucha, sans-serif;
   font-size: 1rem;
-  line-height: 23px;
+  line-height: 7px;
   outline: none;
   padding: .75rem;
   text-decoration: none;
@@ -51,4 +57,8 @@
 
 .button-55:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+*{
+  background-color: lightblue;
 }
